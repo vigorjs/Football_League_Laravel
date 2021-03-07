@@ -23,7 +23,7 @@
                             <tr>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Club</th>
-                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nationality</th>
+                                <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Position</th>
                                 <th scope="col" class="relative px-6 py-3">
                                     <span class="sr-only">Detail</span>
                                 </th>
@@ -36,14 +36,14 @@
                                 <td class="px-6 py-4 whitespace-nowrap">
                                     <div class="flex items-center">
                                         <div class="flex-shrink-0 h-10 w-10">
-                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/man39237.png" alt="">
+                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png" alt="">
                                         </div>
                                         <div class="ml-4">
                                             <div class="text-sm font-medium text-gray-900">
-                                                Thomas Tuchel
+                                                Timo Werner
                                             </div>
                                             <div class="text-sm text-gray-500">
-                                                47 Years
+                                                180 Cm
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@
                                     Chelsea FC
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    Germany
+                                    Forward
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                     <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
@@ -63,23 +63,23 @@
                                 <td class="px-6 py-4 whitespace-nowrap">
                                     <div class="flex items-center">
                                         <div class="flex-shrink-0 h-10 w-10">
-                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/man279.png" alt="">
+                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103025.png" alt="">
                                         </div>
                                         <div class="ml-4">
                                             <div class="text-sm font-medium text-gray-900">
-                                                Jurgen Klopp
+                                                Riyad Mahrez
                                             </div>
                                             <div class="text-sm text-gray-500">
-                                                53 Years
+                                                179 Cm
                                             </div>
                                         </div>
                                     </div>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    Liverpool
+                                    Manchester City
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    Germany
+                                    Forward
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                     <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
