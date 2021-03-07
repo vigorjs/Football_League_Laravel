@@ -18,4 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('clubs', [LandingPageController::class, 'clubs'])->name('landing.clubs');
+Route::get('players', [LandingPageController::class, 'players'])->name('landing.players');
+Route::get('managers', [LandingPageController::class, 'managers'])->name('landing.managers');
+Route::get('stadiums', [LandingPageController::class, 'stadiums'])->name('landing.stadiums');
 Route::resource('/', LandingPageController::class);

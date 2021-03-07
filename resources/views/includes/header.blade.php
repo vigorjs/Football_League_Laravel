@@ -1,7 +1,7 @@
 <section class="h-full w-full border-box transition-all duration-500 linear lg:px-24 md:px-20 px-8 py-8 border-b" style="background-color: #141432">
     <div style="font-family: 'Poppins', sans-serif">
         <div class="mx-auto flex flex-wrap flex-row items-center justify-between">
-            <a class="flex font-medium items-center" href="index.html">
+            <a class="flex font-medium items-center" href="{{ route('index') }}">
                 <svg
                 width="42"
                 height="42"
@@ -43,10 +43,10 @@
             
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full lg:ml-auto lg:mr-auto flex-wrap items-center text-base justify-center" id="menu-1-2">
                 <nav class="lg:space-x-12 space-x-0 lg:flex items-center justify-between text-base pt-8 lg:pt-0 lg:space-y-0 space-y-6">
-                    <a class="block cursor-pointer nav-1-2" href="clubs.html">Clubs</a>
-                    <a class="block cursor-pointer nav-1-2" href="players.html">Players</a>
-                    <a class="block cursor-pointer nav-1-2" href="managers.html">Managers</a>
-                    <a class="block cursor-pointer nav-1-2" href="stadiums.html">Stadium</a>
+                    <a class="block cursor-pointer nav-1-2 {{ request()->is('clubs') ? 'active font-medium' : '' }}" href="{{ route('landing.clubs') }}">Clubs</a>
+                    <a class="block cursor-pointer nav-1-2 {{ request()->is('players') ? 'active font-medium' : '' }}" href="{{ route('landing.players') }}">Players</a>
+                    <a class="block cursor-pointer nav-1-2 {{ request()->is('managers') ? 'active font-medium' : '' }}" href="{{ route('landing.managers') }}">Managers</a>
+                    <a class="block cursor-pointer nav-1-2 {{ request()->is('stadiums') ? 'active font-medium' : '' }}" href="{{ route('landing.stadiums') }}">Stadiums</a>
                 </nav>
             </div>
             
