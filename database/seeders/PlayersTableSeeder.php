@@ -27,7 +27,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 2,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p125153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Forward',
@@ -36,7 +36,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 3,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p155153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Striker',
@@ -45,7 +45,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 4,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p162153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Defender',
@@ -54,7 +54,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 5,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165133.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Goalkeeper',
@@ -63,7 +63,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 6,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p143151.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Wing',
@@ -72,7 +72,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 6,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p132153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Goalkeeper',
@@ -81,7 +81,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 5,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p105153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Forward',
@@ -90,7 +90,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 4,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p156153.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Striker',
@@ -99,7 +99,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 3,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p162150.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Defender',
@@ -108,7 +108,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 2,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165123.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Goalkeeper',
@@ -117,7 +117,7 @@ class PlayersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 1,
-                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165051.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'height' => '180',
                 'position' => 'Wing',

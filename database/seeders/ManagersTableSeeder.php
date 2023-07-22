@@ -20,8 +20,7 @@ class ManagersTableSeeder extends Seeder
         $managers = [
             [
                 'clubs_id' => 1,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man39237.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
@@ -30,8 +29,7 @@ class ManagersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 2,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man51018.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
@@ -40,8 +38,7 @@ class ManagersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 3,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man39237.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
@@ -50,8 +47,7 @@ class ManagersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 4,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man39235.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
@@ -60,8 +56,7 @@ class ManagersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 5,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man39247.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
@@ -70,8 +65,7 @@ class ManagersTableSeeder extends Seeder
             ],
             [
                 'clubs_id' => 6,
-                'photo' => 'https://resources.premierleague.com/premierleague/
-                photos/players/250x250/man39137.png',
+                'photo' => 'https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png',
                 'name' => 'Thomas Tuchel',
                 'old' => '47',
                 'nationality' => 'Germany',
