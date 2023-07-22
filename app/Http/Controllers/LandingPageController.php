@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Clubs;
+use App\Models\Managers;
+use App\Models\Matches;
+use App\Models\Players;
 use Illuminate\Http\Request;
+use App\Models\Stadiums;
 
 class LandingPageController extends Controller
 {
@@ -86,22 +91,47 @@ class LandingPageController extends Controller
     // custom
     public function clubs()
     {
-        return view('pages.landing-page.clubs');
+        $clubs = Clubs::all();
+        $no_urut =  1;
+
+        return view('pages.landing-page.clubs', [
+            'clubs' => $clubs,
+            'nomer' => $no_urut
+        ]);
     }
 
     public function players()
     {
-        return view('pages.landing-page.players');
+        $players = Players::all();
+        $no_urut = 1;
+
+        return view('pages.landing-page.players', [
+           'players' => $players,
+           'nomer' => $no_urut
+        ]);
     }
 
     public function managers()
     {
-        return view('pages.landing-page.managers');
+        $managers = Managers::all();
+        $no_urut = 1;
+
+        return view('pages.landing-page.managers', [
+            'managers' => $managers,
+            'nomer' => $no_urut
+        ]);
     }
 
     public function stadiums()
     {
-        return view('pages.landing-page.stadiums');
+        $stadiums = Stadiums::all();
+        $no_urut = 1;
+
+        return view('pages.landing-page.stadiums', [
+
+            'stadiums' => $stadiums,
+            'nomer' => $no_urut
+        ]);
     }
 
 }

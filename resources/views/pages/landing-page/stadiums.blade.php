@@ -21,6 +21,7 @@
                     <table class="min-w-full divide-y divide-gray-200">
                         <thead class="bg-gray-50">
                             <tr>
+                                <th scope="col" class="px-1 py-1 text-xs font-medium text-gray-500 uppercase tracking-wider">No</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Club</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Address</th>
@@ -32,60 +33,40 @@
 
                         <tbody class="bg-white divide-y divide-gray-200">
 
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 h-10 w-10">
-                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/badges/t8.svg" alt="">
+                        @foreach ($stadiums as $stadium)
+                        @if ($stadium->clubs)
+                        <tr>
+                            <td class="px-lg-1 py-0 flex-wrap text-center">
+                                {{$nomer++}}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="flex-shrink-0 h-10 w-10">
+                                            <img class="h-10 w-10 rounded-full" src="{{$stadium->clubs->logo}}" alt="">
                                         </div>
                                         <div class="ml-4">
                                             <div class="text-sm font-medium text-gray-900">
-                                                Stamford Bridge
+                                                {{$stadium->name}}
                                             </div>
                                             <div class="text-sm text-gray-500">
-                                                40,853
+                                                {{number_format($stadium->capacity)}} / <span>capacity</span>
                                             </div>
                                         </div>
                                     </div>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    Chelsea FC
+                                    {{$stadium->clubs->name}}
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap">
-                                    Stamford Bridge, Fulham Road, London, SW6 1HS
+                                    {{$stadium->address}}
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
+                                    <a href="//{{$stadium->clubs->url}}" class="text-indigo-600 hover:text-indigo-900">Detail</a>
                                 </td>
                             </tr>
+                        @endif
+                        @endforeach
 
-                            <tr>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0 h-10 w-10">
-                                            <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/badges/t3.svg" alt="">
-                                        </div>
-                                        <div class="ml-4">
-                                            <div class="text-sm font-medium text-gray-900">
-                                                Emirates Stadium
-                                            </div>
-                                            <div class="text-sm text-gray-500">
-                                                60,260
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    Arsenal
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap">
-                                    Highbury House, 75 Drayton Park, London, N5 1BU
-                                </td>
-                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
-                                </td>
-                            </tr>
-            
                         <!-- More items... -->
                         </tbody>
                     </table>
