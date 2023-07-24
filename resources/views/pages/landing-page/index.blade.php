@@ -29,7 +29,7 @@
                         <div class="inline-block items-center mx-auto lg:mx-0 lg:flex justify-center lg:space-x-8 md:space-x-2 sm:space-x-3 space-x-0">
 
                             <button class="inline-flex font-semibold text-white text-base py-4 px-6 rounded-xl mb-4 lg:mb-0 md:mb-0 focus:outline-none box-shadow-header-2-3" style="background: #524eee; font-family: 'Poppins', sans-serif;">
-                                Match Result
+                                Upcoming Match
                             </button>
 
                             <button class="btn-outline-header-2-3 font-normal text-black text-base py-4 px-6 rounded-xl focus:outline-none bg-transparent rounded hover:border-transparent" style="font-family: 'Poppins', sans-serif">
@@ -56,45 +56,45 @@
 @push('after-style')
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-        
+
         .btn-outline-header-2-3 {
             border: 1px solid #707092;
             color: #707092;
         }
-        
+
         .btn-outline-header-2-3:hover {
             border: 1px solid #ffffff;
             color: #ffffff;
         }
-        
+
         .btn-outline-header-2-3:hover div path {
             fill: #ffffff;
         }
-        
+
         .box-shadow-header-2-3:hover {
             --tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
             box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
                 var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
         }
-        
+
         .navigation-header-2-3 a:hover,
-        
+
         .active::after {
             font-weight: 600;
         }
-        
+
         .navigation-header-2-3 a:hover {
             color: #e7e7e8;
         }
-        
+
         .navigation-header-2-3 {
             color: #707092;
         }
-        
+
         .bg-screen-header-2-3 {
             background-color: #707092;
         }
-        
+
         .bg-popup-header-2-3 {
             background-color: #141432;
         }

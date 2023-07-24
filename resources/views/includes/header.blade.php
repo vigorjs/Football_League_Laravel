@@ -40,7 +40,7 @@
             </label>
 
             <input class="hidden" type="checkbox" id="menu-toggle-1-2" />
-            
+
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full lg:ml-auto lg:mr-auto flex-wrap items-center text-base justify-center" id="menu-1-2">
                 <nav class="lg:space-x-12 space-x-0 lg:flex items-center justify-between text-base pt-8 lg:pt-0 lg:space-y-0 space-y-6">
                     <a class="block cursor-pointer nav-1-2 {{ request()->is('clubs') ? 'active font-medium' : '' }}" href="{{ route('landing.clubs') }}">Clubs</a>
@@ -49,11 +49,13 @@
                     <a class="block cursor-pointer nav-1-2 {{ request()->is('stadiums') ? 'active font-medium' : '' }}" href="{{ route('landing.stadiums') }}">Stadiums</a>
                 </nav>
             </div>
-            
+
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu-1-2">
-                <button class="btn-fill-1-2 items-center border-0 py-3 px-8 focus:outline-none rounded-2xl font-medium text-base mt-6 lg:mt-0">
-                    Next Match
-                </button>
+                <a href="{{route('admin.dashboard')}}">
+                    <button class="btn-fill-1-2 items-center border-0 py-3 px-8 focus:outline-none rounded-2xl font-medium text-base mt-6 lg:mt-0">
+                        Login
+                    </button>
+                </a>
             </div>
         </div>
     </div>

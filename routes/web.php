@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::name('admin.')->prefix('admin')->group(function(){
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    Route::get('/user', [AdminController::class, 'user'])->name('user');
+});
 
 Route::get('clubs', [LandingPageController::class, 'clubs'])->name('landing.clubs');
 Route::get('players', [LandingPageController::class, 'players'])->name('landing.players');

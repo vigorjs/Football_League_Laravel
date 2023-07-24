@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Clubs;
 use App\Models\Managers;
-use App\Models\Matches;
 use App\Models\Players;
 use Illuminate\Http\Request;
 use App\Models\Stadiums;
@@ -89,6 +88,8 @@ class LandingPageController extends Controller
 
 
     // custom
+
+
     public function clubs()
     {
         $clubs = Clubs::all();
