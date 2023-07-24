@@ -51,7 +51,7 @@
             </div>
 
             <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu-1-2">
-                <a href="{{route('admin.dashboard')}}">
+                <a href="{{route('auth.login')}}">
                     <button class="btn-fill-1-2 items-center border-0 py-3 px-8 focus:outline-none rounded-2xl font-medium text-base mt-6 lg:mt-0">
                         Login
                     </button>

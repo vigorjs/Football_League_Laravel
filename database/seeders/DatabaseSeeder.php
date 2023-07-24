@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             PlayersTableSeeder::class,
             ManagersTableSeeder::class,
             MatchesTableSeeder::class,
+            AddUserSeeder::class,
         ]);
     }
 }

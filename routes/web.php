@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\auth\LoginController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,10 +20,17 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::name('admin.')->prefix('admin')->group(function(){
+Route::middleware('auth')->name('admin.')->prefix('admin')->group(function(){
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/user', [AdminController::class, 'user'])->name('user');
 });
+
+Route::get('login', [LoginController::class, 'login'])->name('auth.login');
+Route::post('login-proses', [LoginController::class, 'proses'])->name('auth.login-proses');
+Route::post('register-proses', [LoginController::class, 'proses_register'])->name('auth.register-proses');
+Route::get('logout', [LoginController::class, 'logout'])->name('auth.logout');
+Route::get('register', [LoginController::class, 'register'])->name('auth.register');
+
 
 Route::get('clubs', [LandingPageController::class, 'clubs'])->name('landing.clubs');
 Route::get('players', [LandingPageController::class, 'players'])->name('landing.players');
