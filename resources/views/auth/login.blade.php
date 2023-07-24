@@ -63,7 +63,7 @@
       </form>
 
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        <a href="{{route('index')}}">Back to Index</a>
       </p>
       <p class="mb-0">
         <a href="{{route('auth.register')}}" class="text-center">Register a new membership</a>

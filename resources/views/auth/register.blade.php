@@ -65,7 +65,9 @@
         </div>
       </form>
 
-
+      <p class="mb-1">
+        <a href="{{route('index')}}">Back to Index</a>
+      </p>
       <p class="mb-0">
         <a href="{{route('auth.login')}}" class="text-center">Sudah punya akun? Login</a>
       </p>
