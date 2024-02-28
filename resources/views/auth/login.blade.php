@@ -15,7 +15,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session <br>Default | username : admin / pw : admin</p>
+      <p class="login-box-msg">Sign in to start your session <br>Default | username : admin@gmail.com / pw : admin</p>
 
       <form action="{{route('auth.login-proses')}}" method="post">
         @csrf
